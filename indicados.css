@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #026773;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400px;
+}
+
+/*Cabeçalho*/
+
+header{
+    font-size: 50px;
+    text-align: center;
+    background-color: #012E40;
+    padding: 20px;
+    color: white;
+}
+
+/*Barra de navegação*/
+
+nav{
+    background-color: #024959;
+    overflow: hidden;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav li{
+    float: left;
+}
+
+nav a:hover{
+    background-color: #3CA6A6;
+    color: black;
+    font-weight: bold;
+}
+
+.marcado{
+    background-color: #3CA6A6;
+    color: black;
+}
+
+/*Geral*/
+

@@ -1,0 +1,14 @@
+/*Funçao para o login*/
+
+function logar() {
+    var login = document.getElementById('loginsite').value;
+    var senha = document.getElementById('senhasite').value;
+    if(login=="admin" && senha=="admin123"){
+        alert("Login feito com sucesso"); 
+        location.href = "index.html";
+    }
+    else{
+        alert("Senha ou usuário incorreto");
+    }
+}
+

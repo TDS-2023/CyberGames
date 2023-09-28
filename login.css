@@ -1,0 +1,58 @@
+
+/*Geral*/
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3A3A3A;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400px;
+}
+
+h1{
+    color: white;
+}
+
+/*Cabeçalho*/
+
+header {
+    font-size: 50px;
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+
+/*Dimensões botão e barra user e senha*/
+
+form{
+width: 300px;
+margin: 325px auto;
+text-align: center;
+}
+
+input{
+    display: block;
+    margin: 10px auto;
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+}
+
+/*Rodapé*/
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px;
+    margin-top: 120px;
+}
