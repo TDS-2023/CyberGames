@@ -2,57 +2,181 @@
 
 *{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
-body{
-    background-color: #026773;
+body {
+    background-color: #3A3A3A;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400px;
+    background-image: url(imagens/background.png);
+    background-position: center;
+    background-size: cover;
 }
 
 /*Cabeçalho*/
 
-header{
+header {
     font-size: 50px;
     text-align: center;
-    background-color: #012E40;
+    background-color: black;
     padding: 20px;
     color: white;
 }
 
 /*Barra de navegação*/
 
-nav{
-    background-color: #024959;
+nav {
+    background-color: #292828;
     overflow: hidden;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: white;
     padding: 20px;
     display: block;
 }
 
-nav ul{
+nav ul {
     list-style: none;
     padding: 0;
 }
 
-nav li{
+nav li {
     float: left;
 }
 
-nav a:hover{
-    background-color: #3CA6A6;
+nav a:hover {
+    background-color: #767575;
     color: black;
     font-weight: bold;
 }
 
-.marcado{
-    background-color: #3CA6A6;
+.marcado {
+    background-color: #767575;
     color: black;
 }
 
-/*Geral*/
+/*seção dos jogos*/
 
+section{
+    margin-top: 150px;
+    width: 100%;
+    height: 650px;
+}
+
+/*Tamanhos da imagens*/
+
+img{
+    width: 240px;
+    height: 300px;
+    object-fit: cover;
+}
+
+/*Escrito jogo do ano*/
+
+.jogo-do-ano {
+    background-image: radial-gradient(#FF8900, #FFCF00, #E27000);
+    font-size: 50px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: system-ui,sans-serif;
+    margin-left: 90px;
+}
+
+/*Escrito categoria do jogo*/
+
+.Categoria{
+    color: white;
+    width: 520px;
+    margin-left: 90px;
+}
+
+.encerrado{
+    color: white;
+    margin-top: -120px;
+    margin-left: 60%;
+}
+
+
+div#ganhador img{
+    border:  2px  transparent;
+    background-image: linear-gradient(#FF8900, #FFCF00, #E27000);
+    padding: 7px;
+    border-bottom-width: 0px;
+    scale: 1.03;
+    margin-left: 3%;
+}
+
+div#placaganhador{
+    color: white;
+    width: 240px;
+    text-align: center;
+    font-size: 22px;
+    padding: 15px;
+    background-image: linear-gradient(#FF8900, #FFCF00, #E27000);
+    margin-left: 3%;
+    scale: 1.03;
+    font-weight: bold;
+}
+
+.jogos{
+    display: flex;
+    gap: 100px;
+}
+
+div.nganhador{
+    filter: brightness(0.9);
+    scale: 0.96;
+}
+
+div.placanganhador{
+    padding: 7px;
+    width: 240px;
+    background-color: #292828;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: -5px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px;
+}
+
+
+@media screen and (max-width: 1300px){
+
+    nav li{
+        float: none;
+    }
+
+    .jogos{
+        flex-direction: column;
+    }
+
+    section{
+        height: 2000px;
+    }
+
+    .jogo-do-ano{
+        margin-left: 2%;
+    }
+    
+    .Categoria{
+        margin-left: 2%;
+    }
+
+    .encerrado{
+        margin-left: 2%;
+        margin-top: 10px;
+    }
+}
