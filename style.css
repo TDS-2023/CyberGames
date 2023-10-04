@@ -309,7 +309,6 @@ button#foradevenda{
         height: 300px;
         border-radius: 0%;
     }
-    
 }
 
 
@@ -549,6 +548,11 @@ body.contato{
     background-color: #3A3A3A;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400px;
+}
+
+/*cor da letra*/
+h2.fale{
+    color: whitesmoke;
 }
 
 /* tamanho borda*/
