@@ -284,6 +284,34 @@ button#foradevenda{
     }
 }
 
+/*Responsividade*/
+@media screen and (max-width: 479px){
+    nav li{
+        float: none;
+    }
+
+    .frame{
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 0%;
+        opacity: 1;
+    }
+
+    div.texto{
+        width: auto;
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    div.imagem{
+        width: 300px;
+        height: 300px;
+        border-radius: 0%;
+    }
+    
+}
+
 
 /*----------------------------------VOTAÇÃO 2023----------------------------------*/
 
