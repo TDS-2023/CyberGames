@@ -130,6 +130,19 @@ p.sep2 {
     }
 }
 
+/*Responsividade*/
+@media screen and (max-width: 679px){
+    nav li{
+        float: none;
+    }
+
+    p.sep2{
+        width: 75%;
+        text-align: left;
+    }
+    
+}
+
 /*----------------------------------MELHOR DO ANO 2022----------------------------------*/
 
 
