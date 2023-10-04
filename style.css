@@ -106,7 +106,7 @@ p.sep2 {
 }
 
 
-@keyframes roll{
+@keyframes roll {
 
     0%,
     100% {
@@ -131,29 +131,29 @@ p.sep2 {
 }
 
 /*Responsividade*/
-@media screen and (max-width: 679px){
-    nav li{
+@media screen and (max-width: 679px) {
+    nav li {
         float: none;
     }
 
-    p.sep2{
+    p.sep2 {
         width: 75%;
         text-align: left;
     }
-    
+
 }
 
 /*----------------------------------MELHOR DO ANO 2022----------------------------------*/
 
 
 
-body#melhor2022{
+body#melhor2022 {
     background-color: #3A3A3A;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400px;
 }
 
-h1#maq{
+h1#maq {
     color: whitesmoke;
     margin-top: 10px;
     animation: cores 5s infinite;
@@ -208,7 +208,7 @@ p {
     margin-top: 10px;
 }
 
-button#foradevenda{
+button#foradevenda {
     animation: cores 5s infinite;
     background-color: #292828;
     border: black solid 2px;
@@ -223,26 +223,33 @@ button#foradevenda{
 
 /*animaçao borda colorida*/
 @keyframes rgb {
+
     0%,
     100% {
         border-color: rgb(87, 188, 255);
     }
+
     15% {
         border-color: mediumpurple;
     }
+
     30% {
         border-color: lightblue;
     }
-    45%{
+
+    45% {
         border-color: mediumspringgreen;
     }
-    60%{
+
+    60% {
         border-color: pink;
     }
-    75%{
+
+    75% {
         border-color: rosybrown;
     }
-    90%{
+
+    90% {
         border-color: coral;
     }
 }
@@ -285,12 +292,12 @@ button#foradevenda{
 }
 
 /*Responsividade*/
-@media screen and (max-width: 479px){
-    nav li{
+@media screen and (max-width: 479px) {
+    nav li {
         float: none;
     }
 
-    .frame{
+    .frame {
         width: 300px;
         height: 300px;
         object-fit: cover;
@@ -298,13 +305,13 @@ button#foradevenda{
         opacity: 1;
     }
 
-    div.texto{
+    div.texto {
         width: auto;
         height: auto;
         margin-bottom: 50px;
     }
 
-    div.imagem{
+    div.imagem {
         width: 300px;
         height: 300px;
         border-radius: 0%;
@@ -314,7 +321,7 @@ button#foradevenda{
 
 /*----------------------------------VOTAÇÃO 2023----------------------------------*/
 
-body.vote{
+body.vote {
     background-color: #3A3A3A;
     font-family: 'Ubuntu', sans-serif;
     background-image: url(imagens/background.png);
@@ -376,7 +383,7 @@ img {
     width: 400px;
     font-family: system-ui, sans-serif;
     font-weight: 700;
-    
+
 }
 
 /*Div pai*/
@@ -544,14 +551,14 @@ table tbody td {
 
 /*----------------------------------CONTATO----------------------------------*/
 
-body.contato{
+body.contato {
     background-color: #3A3A3A;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400px;
 }
 
 /*cor da letra*/
-h2.fale{
+h2.fale {
     color: whitesmoke;
 }
 
@@ -563,7 +570,7 @@ h2.fale{
 /* movimentação da foto*/
 /* centralização da imagem*/
 #foto {
-    border-radius: 50%; 
+    border-radius: 50%;
     height: 120px;
     width: 120px;
     border: solid;
@@ -639,7 +646,7 @@ hr {
     border: solid 1.5px;
 }
 
-h2.nomes{
+h2.nomes {
     margin: 10px;
     color: white;
 }
@@ -771,8 +778,8 @@ h2.nomes{
 
 /*para deixar fixa o tamanho da mensagem*/
 
-#mensagem{
-    resize:initial;
+#mensagem {
+    resize: initial;
 }
 
 /*----------------------------------Rodapé----------------------------------*/

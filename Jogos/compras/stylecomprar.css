@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
-*{
+* {
     margin: 0;
 }
 
-body{
+body {
     background-color: #3A3A3A;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400px;
     color: whitesmoke;
 }
 
-header{
+header {
 
     font-size: 50px;
     text-align: center;
@@ -22,28 +22,28 @@ header{
 
 /*Barra de navegação*/
 
-nav{
+nav {
     background-color: #292828;
     overflow: hidden;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: white;
     padding: 20px;
     display: block;
 }
 
-nav ul{
+nav ul {
     list-style: none;
     padding: 0;
 }
 
-nav li{
+nav li {
     float: left;
 }
 
-nav a:hover{
+nav a:hover {
     background-color: #767575;
     color: black;
     font-weight: bold;
@@ -51,21 +51,21 @@ nav a:hover{
 
 /*fotos*/
 
-img{
+img {
     margin-top: 20px;
     border: black 3px solid;
     border-radius: 10px;
     display: block;
 }
 
-img:hover{
+img:hover {
     transition: all.5s;
     scale: 1.1;
 }
 
 /*botão*/
 
-button{
+button {
     font-size: 13px;
     padding: 4px 10px;
     border-radius: 5px;
@@ -78,14 +78,14 @@ button{
     margin-bottom: 20px;
 }
 
-button:hover{
+button:hover {
     transition: all.5s;
     scale: 1.05;
 }
 
 /*Rodapé*/
 
-footer{
+footer {
     margin-top: 20px;
     background-color: black;
     color: white;
