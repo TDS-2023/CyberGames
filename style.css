@@ -514,6 +514,15 @@ div.placanganhador {
         margin-bottom: 20px;
         margin-left: 0;
     }
+
+
+    div.nganhador img {
+        margin-left: 2%;
+    }
+
+    div.placanganhador {
+        margin-left: 2%;
+    }
 }
 
 
