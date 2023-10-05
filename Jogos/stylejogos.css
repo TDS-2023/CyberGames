@@ -89,6 +89,15 @@ div {
     font-size: 16px;
 }
 
+
+@media screen and (max-width: 679px) {
+
+    div{
+        width: 50%;
+        text-align: left;
+    }
+}
+
 /*Rodapé*/
 
 footer {
