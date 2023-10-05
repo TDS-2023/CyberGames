@@ -292,7 +292,7 @@ button#foradevenda {
 }
 
 /*Responsividade*/
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 620px) {
     nav li {
         float: none;
     }
