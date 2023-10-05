@@ -52,7 +52,7 @@ nav a:hover {
 /*fotos*/
 
 img {
-    margin-top: 20px;
+    margin-top: 50px;
     border: black 3px solid;
     border-radius: 10px;
     display: block;
@@ -61,6 +61,13 @@ img {
 img:hover {
     transition: all.5s;
     scale: 1.1;
+}
+
+@media screen and (max-width: 980px) {
+    img{
+        width: 70%;
+        height: 70%;
+    }
 }
 
 /*botão*/
@@ -86,7 +93,7 @@ button:hover {
 /*Rodapé*/
 
 footer {
-    margin-top: 20px;
+    margin-top: 125px;
     background-color: black;
     color: white;
     font-size: 25px;

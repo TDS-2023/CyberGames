@@ -60,6 +60,13 @@ img {
     border-radius: 5px;
 }
 
+@media screen and (max-width: 980px) {
+    img{
+        width: 70%;
+        height: 70%;
+    }
+}
+
 /*Botão de compra*/
 
 button {
